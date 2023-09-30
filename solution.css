@@ -1,0 +1,149 @@
+*{box-sizing: border-box;}
+.container{
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-sm-6{
+margin-top: 10%;
+padding-left: 15px;
+}
+.bord{
+    display: inline-block;
+    background-color: rgb(209, 208, 207);
+    width: 400px;
+    padding:9px 2px 4px 20px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    margin-bottom: 15px;
+    
+}
+.footer{
+    background-color:  rgb(114, 65, 65);
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.stars{
+    display: inline-block;
+    float: left;
+}
+div .ra1{
+    margin-left: 30px;
+}
+div .ra2{
+    margin-left: 60px;
+}
+
+div .rate{
+    margin-top: 13.5%;
+    
+}
+.head h1{
+    width: 300px;
+    color: rgb(114, 65, 65);
+}
+.head p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(114, 65, 65);
+}
+div .ns{
+    width:50px;
+    float: left;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.c{
+    background-color:rgb(114, 65, 65) ;
+    width: 340px;
+    height: 260px;
+    float: left;
+    padding: 18px;
+    margin: 12px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+div .y1{
+    margin-top: 25px;
+}
+div .y2{
+    margin-top: 50px;
+}
+.par h4{
+    padding-left: 70px;
+    color: white;
+    font-size: 17px;
+}
+.par p{
+    color: white;
+    margin-top: 20px;
+}
+@media only screen and (max-width:530px ) {
+   body{
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+   }
+   div .c{
+    margin: 0px;
+    width: 430px;
+    padding: 0px;
+    height: 220px;
+    
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+   }
+  
+   div h1{
+    margin-left: 10%;
+   }
+   div .bord{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+   }
+   div .stars{
+    float: none;
+    display: block;
+    
+   }
+   .stars img{
+    padding-left: 5px;
+   }
+}
+@media only screen and (max-width:786px) {
+    body{
+        background-image: url(images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+    }
+    .col-sm-6{
+        display: block;
+        float: none;
+        
+    }
+    div .bord{
+        width: 400px;
+        padding: 2px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    div .c{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+}
